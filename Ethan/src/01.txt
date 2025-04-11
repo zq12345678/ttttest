@@ -1,0 +1,56 @@
+算法  完成事情步骤
+
+买菜
+洗菜
+做菜
+吃菜
+
+java
+python
+
+variable   变量
+
+x = 10;  赋值符号
+x = 20;
+x = 30;
+
+变量命名规则：
+1、只能由数字、字母、下划线
+2、不能以数字开头
+3、不能占用关键字
+
+
+data type  数据类型
+
+height = 170;       整数    int
+weight = 50.5;      小数    double
+name = "Ethan";     字符串  String
+
+
+int height;   declare   变量的定义
+height = 170;  initialize  变量的初始化 （给变量一个初始值）
+
+int height = 170;
+double weight = 50.5;
+String name = "Ethan";
+
+Arithmetic operate 算数运算符
++  -   *  /  %  ()
+优先级
+第一级别：（ ）
+第二级别： * / %
+第三级别： +  -
+
+double height = 1.70;
+double weight = 50.5;
+double BMI = weight / (height * height);
+System.out.println(BMI);
+
+
+int / int  ~~~~整数  取整
+double / int
+int / double
+double / double
+
+定义一个变量表示一个两位数的整数
+输出这个整数的各个数字
